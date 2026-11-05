@@ -1,0 +1,392 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="css/thefinal.css">
+
+  <title>Student Studio | Website Project</title>
+
+  <style>
+
+    .hero {
+      position: relative;
+      isolation: isolate;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: min(36vw, 900px);
+      height: min(34vw, 900px);
+      min-height: 230px;
+      background: linear-gradient(
+        120deg,
+        #ff00cc,
+        #8b35ff,
+        #168bff,
+        #00f0ff,
+        #00ff91,
+        #fff000,
+        #ff7b00
+      );
+      clip-path: polygon(0 0, 100% 0, 50% 100%);
+      opacity: 0.22;
+      filter: drop-shadow(0 0 20px #a855f7);
+      pointer-events: none;
+      z-index: -1;
+    }
+
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+  
+
+  </style>
+</head>
+
+<body>
+
+  <section id="home" class="hero">
+    <div class="container">
+
+      <header>
+
+        <div class="brand">
+          <img id="iimg" src="img/logo.img" alt="Logo" class="logo">
+          <span class="company-name">ART STUDIO</span>
+        </div>
+
+        <nav>
+          <ul>
+            <li class="active"><a href="#home">HOME</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Services</a></li>
+            <li><a href="#instructor">Instructor</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+      </header>
+
+      <div class="main-heading">
+
+        <p class="eyebrow">ART COURSE</p>
+
+        <h1>Express your creativity through art.</h1>
+
+        <p>
+          Learn drawing, painting and illustration through simple,
+          creative courses suitable for every level.
+        </p>
+
+        <a class="big-button blue" href="#courses">
+          VIEW COURSES
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="about" class="about-section">
+    <div class="container small-container">
+
+      <div class="title-box">
+
+        <h1>ABOUT THE COURSE</h1>
+
+        <div class="line"></div>
+
+        <h3>
+          This course is designed for everyone who wants to
+          learn art, develop their creativity and improve
+          their artistic skills.
+        </h3>
+
+      </div>
+
+      <div class="lesson-cards">
+
+        <div class="lesson-card">
+
+          <span>01</span>
+
+          <h3>DRAWING</h3>
+
+          <p>
+            Learn the basics of drawing, shapes, lines, proportions
+            and shading techniques.
+          </p>
+
+          <img src="img/draw.img" alt="Frog ninja drawing">
+
+          <p>Frog ninja drawing</p>
+
+        </div>
+
+        <div class="lesson-card">
+
+          <span>02</span>
+
+          <h3>PAINTING</h3>
+
+          <p>
+            Discover colors, color mixing and different techniques
+            for creating paintings.
+          </p>
+
+          <img src="img/art.img" alt="Painting artwork">
+
+          <p>Part painting</p>
+
+        </div>
+
+        <div class="lesson-card">
+
+          <span>03</span>
+
+          <h3>SCULPTURE</h3>
+
+          <p>
+            Create creative sculptures and develop your own
+            personal artistic style.
+          </p>
+
+          <img src="img/think.img" alt="The Thinker sculpture">
+
+          <p>The Thinker sculpture</p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="instructor" class="services-section">
+
+    <div class="container">
+
+      <div class="title-box">
+
+        <h2>OUR INSTRUCTORS</h2>
+
+        <div class="line"></div>
+
+        <p>Meet Our Instructors</p>
+
+      </div>
+
+      <div class="services-box">
+
+        <div class="service">
+          <h3>John Sturgis</h3>
+          <p>"I will help you learn how to make pictures!"</p>
+          <img src="img/joohn.img" alt="John Sturgis">
+        </div>
+
+        <div class="service">
+          <h3>Leonardo Da Vinci</h3>
+          <p>"I will teach you how to make art look fantastic!"</p>
+          <img src="img/leoo.img" alt="Leonardo Da Vinci">
+        </div>
+
+        <div class="service">
+          <h3>Sterling Fournier</h3>
+          <p>"We will create amazing sculptures."</p>
+          <img src="img/sterling.img" alt="Sterling Fournier">
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="line"></div>
+
+    <div class="title-box">
+
+      <h2>Our Instructors art pieces</h2>
+
+      <div class="line"></div>
+
+      <div class="service-ref-row">
+
+        <div class="serviceref">
+          <h3>One of John Sturgis's Art pieces</h3>
+          <img src="img/arty.img" alt="Rainbow Nature artwork">
+          <p>"Rainbow Nature"</p>
+        </div>
+
+        <div class="serviceref">
+          <h3>One of Leonardo Da Vinci's Art pieces</h3>
+          <img src="img/mon.img" alt="The Mona Lisa">
+          <p>"The Mona Lisa"</p>
+        </div>
+
+        <div class="serviceref">
+          <h3>One of Sterling Fournier's Art pieces!</h3>
+          <img src="img/peanut.img" alt="Buttery Beauty sculpture">
+          <p>"Buttery Beauty!"</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="courses" class="services-section">
+
+    <div class="container">
+
+      <div class="title-box">
+
+        <h2>COURSES WE OFFER</h2>
+
+        <div class="line"></div>
+
+        <p>
+          Choose the course that interests you and develop
+          your artistic skills.
+        </p>
+
+      </div>
+
+      <div class="services-box">
+
+        <div class="service">
+
+          <span class="service-number">01</span>
+
+          <h3>DRAWING COURSE</h3>
+
+          <h3>29.99$</h3>
+
+          <p class="course-info">Level: Beginner</p>
+
+          <a href="#contact" class="service-button">
+            REGISTER
+          </a>
+
+        </div>
+
+        <div class="service">
+
+          <span class="service-number">02</span>
+
+          <h3>PAINTING COUSE</h3>
+
+          <h3>49.99$</h3>
+
+          <p class="course-info">Level: Beginner - Intermediate</p>
+
+          <a href="#contact" class="service-button">
+            REGISTER
+          </a>
+
+        </div>
+
+        <div class="service">
+
+          <span class="service-number">03</span>
+
+          <h3>SCULPTURE COUSE</h3>
+
+          <h3>39.99$</h3>
+
+          <p class="course-info">Level: Intermediate</p>
+
+          <a href="#contact" class="service-button">
+            REGISTER
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="contact" class="contact-section">
+
+    <div class="container">
+
+      <div class="title-box">
+
+        <h2>GET IN TOUCH</h2>
+
+        <div class="line"></div>
+
+        <p>
+          Fill out the form below. This section demonstrates
+          input, textarea, button and Flexbox.
+        </p>
+
+      </div>
+
+      <div id="contact-form">
+
+        <form>
+
+          <div class="form-row">
+
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+            >
+
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+            >
+
+          </div>
+
+          <div class="form-row">
+
+            <textarea
+              name="message"
+              placeholder="Your Message"
+            ></textarea>
+
+          </div>
+
+          <div class="form-row">
+
+            <input
+              type="submit"
+              class="big-button"
+              value="SEND MESSAGE"
+            >
+
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <footer>
+  </footer>
+
+</body>
+</html>
+```

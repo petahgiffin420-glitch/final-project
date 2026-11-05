@@ -1,0 +1,554 @@
+
+
+body{
+    background-color: #FFF5EE;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.company-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+.main-heading {
+    max-width: 650px;
+    margin-top: 100px;
+    background-color: #FFF5EE;
+}
+
+.main-heading .eyebrow {
+    color: #e96d3d;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    background-color: #FFF5EE;
+}
+
+.main-heading h1 {
+    font-size: 60px;
+    line-height: 1.1;
+    color: #222;
+    margin-bottom: 25px;
+    background-color: #FFF5EE;
+}
+
+.main-heading > p:not(.eyebrow) {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    background-color: #FFF5EE;
+    margin-bottom: 30px;
+}
+
+.big-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.big-button.blue {
+    background-color: orange;
+}
+
+.big-button.blue:hover {
+    background-color: orange;
+}
+
+body {
+    margin: 0;
+    background-color: #FFF5EE;
+    color: #222;
+    font-family: Arial, sans-serif;
+}
+
+
+.hero {
+    background-color: #FFF5EE;
+    min-height: 100vh;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #FFF5EE;
+}
+
+
+.logo {
+    width: 100px;
+    height: auto;
+    display: block;
+  background-color: #FFF5EE;
+}
+
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #e96d3d;
+}
+
+.main-heading {
+    margin-top: 120px;
+    max-width: 700px;
+}
+
+.main-heading h1 {
+    font-size: 55px;
+    line-height: 1.1;
+    color: #222;
+}
+
+.main-heading p {
+    color: #666;
+    font-size: 18px;
+}
+
+.lesson-cards {
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.lesson-card {
+    flex: 1;
+    background: white;
+    text-decoration-color: white;
+    padding: 35px;
+    border-radius: 15px;
+    border: 1px solid #eeeeee;
+    transition: 0.3s;
+}
+
+.lesson-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.lesson-card span {
+    color: grey;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lesson-card h3 {
+    margin: 15px 0;
+    color: #222;
+}
+
+.lesson-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+
+img {
+    width: 200px;
+    height: 50px;
+    height: auto;
+}
+
+
+
+.services-section {
+    padding: 100px 0;
+    background-color: #f5f1eb;
+}
+
+.services-section .title-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services-section .title-box h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.services-section .title-box p {
+    font-size: 17px;
+    color: #666;
+    max-width: 600px;
+    margin: 20px auto 0;
+}
+
+
+
+.services-box {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: white;
+    width: 240px;
+    min-height: 350px;
+    padding: 30px 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+
+
+.service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.service-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f28c28;
+    margin-bottom: 15px;
+}
+
+
+
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+
+
+.service p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #666;
+}
+
+
+
+
+.service .course-info {
+    font-size: 13px;
+    font-weight: bold;
+    color: #444;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+
+
+.service-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #f28c28;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+
+    transition: background-color 0.3s ease,
+                transform 0.3s ease;
+}
+
+.service-button:hover {
+    background-color: #d96f10;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.servicesref-section {
+    padding: 100px 0;
+    background-color: #f5f1eb;
+}
+
+.servicesref-section .title-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.servicesref-section .title-box h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.servicesref-section .title-box p {
+    font-size: 17px;
+    color: #666;
+    max-width: 600px;
+    margin: 20px auto 0;
+}
+
+
+
+
+.servicesref-box {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.serviceref {
+    background-color: white;
+    width: 240px;
+    min-height: 350px;
+    padding: 30px 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+
+
+.serviceref:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.serviceref-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f28c28;
+    margin-bottom: 15px;
+}
+
+
+
+
+.serviceref h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+
+
+.serviceref p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #666;
+}
+
+
+
+
+.serviceref .course-info {
+    font-size: 13px;
+    font-weight: bold;
+    color: #444;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+
+
+.serviceref-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #f28c28;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+
+    transition: background-color 0.3s ease,
+                transform 0.3s ease;
+}
+
+.serviceref-button:hover {
+    background-color: #d96f10;
+    transform: scale(1.05);
+}
+
+
+.service-ref-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.serviceref {
+  width: 250px;
+  text-align: center;
+}
+
+.serviceref img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+justify-content: center;
+
+
+/* REGISTRATION FORM */
+
+#contact-form {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 35px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+#contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.form-row input,
+.form-row textarea,
+.form-row select {
+  width: 100%;
+  padding: 15px 18px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  outline: none;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+.form-row input:focus,
+.form-row textarea:focus,
+.form-row select:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.2);
+}
+
+.form-row textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.form-row select {
+  background: white;
+  cursor: pointer;
+}
+
+.form-row input::placeholder,
+.form-row textarea::placeholder {
+  color: #999;
+}
+
+/* START BUTTON */
+
+#contact-form .big-button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#contact-form .big-button:hover {
+  background: #217dbb;
+  transform: translateY(-2px);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+  .form-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  #contact-form {
+    padding: 20px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  background-color: #FFF5EE;
+}
